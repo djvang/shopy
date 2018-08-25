@@ -1,0 +1,31 @@
+.card-product {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-product:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-product .card-image {
+  display: block;
+  height: 243px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.card-product .card-image img {
+  object-fit: contain;
+}
+
+.card-product .card-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: tomato;
+}

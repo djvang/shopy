@@ -1,0 +1,5 @@
+.grid-products > * {
+  width: 33.33%;
+  min-width: 200px;
+  flex-grow: 1;
+}

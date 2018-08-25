@@ -1,0 +1,64 @@
+.navbar {
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: tomato;
+  margin-top: -1.4em;
+  margin-bottom: -1.4em;
+}
+
+.navbar-nav,
+.navbar-actions {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: -8px;
+}
+
+.navbar-nav > *,
+.navbar-actions > * {
+  margin: 8px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #34404b;
+}
+
+.navbar-item.is-active .navbar-link,
+.navbar-link:hover,
+.navbar-link:focus {
+  color: tomato;
+}
+
+.navbar-actions > li > a {
+  color: #34404b;
+}
+
+.navbar-actions > li > a:hover,
+.navbar-actions > li > a:focus {
+  color: tomato;
+}
+
+.layout-navbar {
+  margin: -16px -32px;
+  align-items: center;
+}
+
+.layout-navbar > * {
+  padding: 16px 32px;
+}
+
+.layout-navbar > :nth-child(2) {
+  flex-grow: 1;
+}

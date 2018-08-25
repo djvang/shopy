@@ -1,0 +1,9 @@
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -16px;
+}
+
+.layout > * {
+  padding: 16px;
+}

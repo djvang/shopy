@@ -1,0 +1,13 @@
+.layout-products > * {
+  flex-grow: 1;
+}
+
+@media (min-width: 992px) {
+  .layout-products {
+    flex-wrap: nowrap;
+  }
+  .layout-products > :nth-child(1) {
+    width: 300px;
+    flex-shrink: 0;
+  }
+}
